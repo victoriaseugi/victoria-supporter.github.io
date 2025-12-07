@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>VICTORIA 서포터즈</title>
+<style>
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: url('bg.jpg') center/cover no-repeat fixed;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    inset:0;
+}
+.container {
+    position: relative;
+    color:white;
+    z-index:2;
+    padding:40px;
+    text-align:center;
+}
+.logo {
+    width:160px;
+}
+.section {
+    background: rgba(0,0,0,0.5);
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 800px;
+}
+.button {
+    display:inline-block;
+    padding:14px 28px;
+    background:red;
+    color:white;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+<div class="overlay"></div>
+<div class="container">
+    <img src="logo.png" class="logo">
+    <h1>FC SEOUL VICTORIA 서포터즈</h1>
+
+    <div class="section">
+        <h2>모임 소개</h2>
+        <p>FC 서울을 사랑하는 팬들의 공식 서포터즈 모임입니다.</p>
+    </div>
+
+    <div class="section">
+        <h2>VICTORIA 비전</h2>
+        <p>열정, 단결, 그리고 승리를 향한 끝없는 응원!</p>
+    </div>
+
+    <div class="section">
+        <h2>모임 가입 신청</h2>
+        <form>
+            <input type="text" name="name" placeholder="이름" style="padding:10px; width:60%; border-radius:6px;"><br><br>
+            <input type="text" name="phone" placeholder="연락처" style="padding:10px; width:60%; border-radius:6px;"><br><br>
+            <button class="button">가입 신청하기</button>
+        </form>
+    </div>
+
+    <div class="section">
+        <h2>VICTORIA 일정</h2>
+        <p>다가오는 경기 응원 일정이 업데이트됩니다.</p>
+    </div>
+</div>
+</body>
+</html>
